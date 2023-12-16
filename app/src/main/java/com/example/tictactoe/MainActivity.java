@@ -10,7 +10,7 @@ import java.lang.reflect.Array;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button[][] buttons = ((Button[][]) Array.newInstance(Button.class, new int[]{3, 3}));
-    private boolean player1Turn = true;
+//    private boolean player1Turn = true;
     private int roundCount;
 
     /* access modifiers changed from: protected */
